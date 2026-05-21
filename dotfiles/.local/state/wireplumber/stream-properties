@@ -1,0 +1,2 @@
+[stream-properties]
+Output/Audio:media.role:Notification={"channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false}
