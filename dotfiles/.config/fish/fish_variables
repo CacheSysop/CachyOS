@@ -3,6 +3,9 @@
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:4300
+SETUVAR _fisher_huandney_2F_fish_2D_pkg_2D_suggest_2D_arch_files:\x7e/\x2econfig/fish/functions/__fcnf_bg_tokens\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_i18n\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_install\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_print\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_print_batch_item\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_prompt\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_sudo\x2efish\x1e\x7e/\x2econfig/fish/functions/__fcnf_sudo_inner_cmd\x2efish\x1e\x7e/\x2econfig/fish/functions/fcnf\x2efish\x1e\x7e/\x2econfig/fish/functions/fish_command_not_found\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fcnf\x2efish\x1e\x7e/\x2econfig/fish/completions/fcnf\x2efish
+SETUVAR _fisher_plugins:huandney/fish\x2dpkg\x2dsuggest\x2darch
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_check_for_new_release:false
 SETUVAR pure_color_at_sign:pure_color_mute
