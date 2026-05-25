@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env fish
 
 # Exit immediately if a command exits with a non-zero status
 set -e
@@ -6,7 +6,7 @@ set -e
 # https://github.com/huandney/fish-pkg-suggest-arch
 
 # Requirements
-sudo pacman -S -needed -noconfirm pkgfile expac
+sudo pacman -S --needed --noconfirm pkgfile expac
 
 fisher install huandney/fish-pkg-suggest-arch
 
