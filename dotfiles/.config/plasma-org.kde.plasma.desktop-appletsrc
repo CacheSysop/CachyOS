@@ -66,7 +66,7 @@ widgets=true
 
 [Containments][23][Applets][28][Applets][29][Configuration][Miscellaneous]
 configMsg=false
-timestamp=1779350621757
+timestamp=1779954772011
 version=v2.9.8
 
 [Containments][23][Applets][28][Applets][29][Configuration][Upgrade]
@@ -88,7 +88,7 @@ wrapper=yay
 
 [Containments][23][Applets][28][Applets][30]
 immutability=1
-plugin=org.kde.kscreen
+plugin=org.kde.kdeconnect
 
 [Containments][23][Applets][28][Applets][31]
 immutability=1
@@ -159,6 +159,15 @@ plugin=org.kde.plasma.digitalclock
 [Containments][23][Applets][38][Configuration]
 popupHeight=400
 popupWidth=560
+
+[Containments][23][Applets][38][Configuration][Appearance]
+autoFontAndSize=false
+fontFamily=Noto Sans
+fontWeight=400
+
+[Containments][23][Applets][38][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][23][Applets][44]
 immutability=1
@@ -237,7 +246,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][43][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/cachyos-wallpapers/Spectrum.png
+Image=file:///home/sysop/.local/share/wallpapers/retro.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
