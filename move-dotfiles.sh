@@ -1,27 +1,19 @@
 #!/usr/bin/env bash
 
-# Exit immediately if a command exits with a non-zero status
-set -e
-
-# Define the source directory (dotfiles folder in the current directory)
 SRC_DIR="./dotfiles"
 DEST_DIR="$HOME"
 
-# Check if the dotfiles directory actually exists
+# Check if the dotfiles directory exists
 if [ ! -d "$SRC_DIR" ]; then
     echo "Error: '$SRC_DIR' directory not found!"
     exit 1
 fi
 
-echo "Moving hidden files and folders from $SRC_DIR to $DEST_DIR..."
+echo "Copying and overwriting dotfiles to $DEST_DIR..."
 
-# Enable dotglob so * matches hidden files
-shopt -s dotglob
+# -a: archive mode (preserves permissions, timestamps, symlinks)
+# -v: verbose (shows you exactly what is being overwritten)
+# --overwrite: forces rsync to overwrite existing files/directories smoothly
+rsync -av "$SRC_DIR/" "$DEST_DIR/"
 
-# Move everything from the dotfiles folder to the home directory
-mv "$SRC_DIR"/* "$DEST_DIR/"
-
-# Disable dotglob to return the shell to its default behavior
-shopt -u dotglob
-
-echo "Done! Dotfiles successfully moved."
+echo "Done! Dotfiles successfully merged and overwritten in your home directory."
