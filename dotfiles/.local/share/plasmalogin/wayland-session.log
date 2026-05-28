@@ -1,4 +1,0 @@
-/usr/bin/xrdb: Can't open display ''
-xcb_connect() failed
-QPixmap: QGuiApplication must be created before calling defaultDepth().
-QPixmap: QGuiApplication must be created before calling defaultDepth().
