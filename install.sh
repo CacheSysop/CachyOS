@@ -3,3 +3,4 @@
 ./pre-install.sh
 ./move-dotfiles.sh
 ./post-install.sh
+sudo reboot
