@@ -38,6 +38,6 @@ sudo pacman -Syu --noconfirm
 echo "=== Chaotic-AUR Setup Complete. ==="
 # Install packages needed for my .dotfiles
 echo
-echo "-> Installing packages from Chaotic-AUR."
-sudo pacman -S --noconfirm kwin-effect-rounded-corners-git kwin-effects-better-blur-dx klassy-git yay
+echo "-> Installing packages . . . "
+sudo pacman -S --noconfirm kwin-effect-rounded-corners-git kwin-effects-better-blur-dx klassy-git yay qbittorent floorp-bin
 echo "===  Package installation Complete. ==="
