@@ -1,6 +1,6 @@
 [General]
 Version=202
-ViewPropsTimestamp=2026,5,21,0,57,23.593
+ViewPropsTimestamp=2025,11,15,3,41,20.464
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -8,3 +8,9 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,opendocumentthumbnail,svgthumbnail,windowsexethumbnail,windowsimagethumbnail,ffmpegthumbs,blenderthumbnail,gsthumbnail,mobithumbnail,rawthumbnail,fontthumbnail,ffmpegthumbnailer,gsf-office,glycin-heif,glycin-image-rs,glycin-jxl,glycin-svg
+
+[Search]
+What=FileContents
