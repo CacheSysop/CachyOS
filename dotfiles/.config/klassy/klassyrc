@@ -27,3 +27,4 @@ ButtonIconStyle=StyleKisweet
 ButtonShape=ShapeFullHeightRoundedRectangle
 ColorizeWindowOutlineWithButton=false
 DrawTitleBarSeparator=false
+WindowCornerRadius=5
