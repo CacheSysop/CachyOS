@@ -99,7 +99,7 @@ setup_bridge() {
 
             # Create the bridge and attach the physical interface
             nmcli conn add type bridge con-name "$brname" ifname "$brname" stp no
-            nmcli conn add type ethernet slave-type bridge con-name "bridge-slave-$iface" ifname "$iface" master "$brname"
+            nmcli conn add type ethernet slave-type bridge con-name "eth0-$iface" ifname "$iface" master "$brname"
 
             # Bring up the newly created bridge
             nmcli conn up "$brname"
