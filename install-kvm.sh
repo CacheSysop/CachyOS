@@ -59,7 +59,7 @@ virsh net-start default > /dev/null 2>&1
 # 4. User Group Configuration
 echo -e "\n${YELLOW}Configuring user permissions...${NC}"
 if [ -n "$SUDO_USER" ]; then
-    usermod -aG libvirt, kvm "$SUDO_USER"
+    usermod -aG libvirt,kvm "$SUDO_USER"
     echo -e "${GREEN}Added user '$SUDO_USER' to the 'libvirt' and 'kvm' group.${NC}"
     echo "(Note: You will need to log out and log back in for group changes to take effect)."
 fi
