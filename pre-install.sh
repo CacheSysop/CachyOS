@@ -39,5 +39,5 @@ echo "=== Chaotic-AUR Setup Complete. ==="
 # Install packages needed for my .dotfiles
 echo
 echo "-> Installing packages . . . "
-sudo pacman -S --needed --noconfirm kwin-effect-rounded-corners-git kwin-effects-better-blur-dx klassy-git yay qbittorrent floorp-bin
+sudo pacman -S --needed --noconfirm kwin-effect-rounded-corners-git kwin-effects-better-blur-dx klassy-git yay qbittorrent floorp-bin dolphin-plugins
 echo "===  Package installation Complete. ==="
