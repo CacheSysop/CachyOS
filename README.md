@@ -1,3 +1,6 @@
+<img width="1920" height="1080" alt="Screenshot" src="https://github.com/user-attachments/assets/c6d2a98a-fb05-479a-aede-cf740796d53c" />
+
+
 Projects used:
 
 (Fish shell package suggestions) https://github.com/huandney/fish-pkg-suggest-arch
