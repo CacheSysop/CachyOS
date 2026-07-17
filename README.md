@@ -17,3 +17,5 @@
 (KDE-Rounded-Corners) https://github.com/matinlotfali/KDE-Rounded-Corners
 
 (Better Blur DX) https://github.com/xarblu/kwin-effects-better-blur-dx
+
+(Adwaita Accent Tint for KDE Plasma) https://github.com/n3thshan/adw-tint-kde
