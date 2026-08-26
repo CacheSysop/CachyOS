@@ -3,6 +3,8 @@
 
 ## Projects used:
 
+(Apdatifier: Arch Update Notifier) https://github.com/exequtic/apdatifier
+
 (Fish shell package suggestions) https://github.com/huandney/fish-pkg-suggest-arch
 
 (Oh-My-Fish) https://github.com/oh-my-fish/oh-my-fish
