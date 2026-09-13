@@ -23,3 +23,5 @@
 (Adwaita Accent Tint for KDE Plasma) https://github.com/n3thshan/adw-tint-kde
 
 (Sunveil) https://github.com/ImStillBlue/sunshine-virtual-display
+
+(Envy TUI) https://github.com/tassiovirginio/envy-tui
