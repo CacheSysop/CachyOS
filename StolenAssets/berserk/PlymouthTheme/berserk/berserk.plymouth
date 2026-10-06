@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=berserk
+Description=default plymouth theme for berserk arch
+Comment=Created By Gaurav Raj (@thehackersbrain) <me@thehackersbrain.xyz>
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/berserk
+ScriptFile=/usr/share/plymouth/themes/berserk/berserk.script
